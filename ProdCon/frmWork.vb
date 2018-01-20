@@ -45,7 +45,7 @@ Public Class frmWork
                                        Else
                                            notifyWork()
                                        End If
-                                   End Sub))
+                                   End Sub)).ToList
 
 
         Dim views = (From c In cons Select New ConsumerProcessingView(c.Name)).ToArray
